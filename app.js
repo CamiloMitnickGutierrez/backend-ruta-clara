@@ -23,6 +23,7 @@ const io = new Server(httpServer, {
     cors: {
         origin: [
             "https://ruta-clara-if4hs.ondigitalocean.app",
+            "https://ruta-clara-api-hedsfvehd5afa2hk.canadacentral-01.azurewebsites.net",
             "http://localhost:5173"
         ],
         credentials: true
@@ -32,6 +33,7 @@ const io = new Server(httpServer, {
 app.use(cors({
     origin: [
         "https://ruta-clara-if4hs.ondigitalocean.app",
+        "https://ruta-clara-api-hedsfvehd5afa2hk.canadacentral-01.azurewebsites.net",
         "http://localhost:5173"
     ],
     credentials: true
